@@ -1,0 +1,74 @@
+szemelyek{
+    display: table;
+    box-shadow: 0.25rem 0.25rem 0.2rem gray;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 35%;
+}
+
+
+szemely{
+    display: table-row;
+    margin: auto;
+    height: 3rem;
+    padding: 3rem;
+}
+
+szemely:hover{
+    background-color: yellow;
+    transition: 0.8s;
+}
+
+
+nyelvek{
+    counter-reset: nyelv-number;
+    display: table;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+nyelv{
+    display: table-row;
+}
+
+nyelvek > nyelv:first-child:before{
+    content: "Használat: "counter(nyelv-number)".";
+    counter-increment: nyelv-number;
+    display: inline-block;
+    margin-right: 0.75rem;
+ 
+}
+
+nyelv:last-child{
+    margin-bottom: 1rem;
+}
+
+
+nyelvek > nyelv::before{
+    content: counter(nyelv-number) ".";
+    counter-increment: nyelv-number;
+    display: inline-block;
+    margin-right: 0.75rem;
+ 
+}
+
+szemely[nem=férfi]>keresztnev{
+    color: blue;
+}
+szemely[nem=nő]>keresztnev{
+    color: purple;
+}
+szemely[nem=unisex]>keresztnev{
+    color: crimson;
+}
+
+
+ertekeles::after{
+    content: '%';
+}
+
+
+
+cimkek{
+    display: none;
+}

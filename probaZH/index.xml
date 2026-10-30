@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+<szemelyek>
+    <szemely nem = "férfi">
+        <keresztnev>Liam</keresztnev>
+        <nem>férfi</nem>
+        <ertekeles>66</ertekeles>
+        <nyelvek>
+            <nyelv>Ír</nyelv>
+            <nyelv>Angol</nyelv>
+            <nyelv>Francia</nyelv>
+        </nyelvek>
+        <cimkek>
+            <cimke>Gyakori</cimke>
+            <cimke>Híres</cimke>
+        </cimkek>
+    </szemely>
+    <szemely nem = "nő">
+        <keresztnev>Mia</keresztnev>
+        <nem>nő</nem>
+        <ertekeles>73</ertekeles>
+        <nyelvek>
+            <nyelv>Svéd</nyelv>
+            <nyelv>Norvég</nyelv>
+            <nyelv>Dán</nyelv>
+        </nyelvek>
+        <cimkek>
+            <cimke>Gyakori</cimke>
+            <cimke>Híres</cimke>
+        </cimkek>
+    </szemely>
+    <szemely nem = "férfi">
+        <keresztnev>Joshua</keresztnev>
+        <nem>férfi</nem>
+        <ertekeles>77</ertekeles>
+        <nyelvek>
+            <nyelv>Angol</nyelv>
+            <nyelv>Hebrew</nyelv>
+            <nyelv>Görög</nyelv>
+        </nyelvek>
+        <cimkek>
+            <cimke>Bibliai</cimke>
+            <cimke>Híres</cimke>
+        </cimkek>
+    </szemely>
+    <szemely nem = "nő">
+        <keresztnev>Lucia</keresztnev>
+        <nem>nő</nem>
+        <ertekeles>84</ertekeles>
+        <nyelvek>
+            <nyelv>Olasz</nyelv>
+            <nyelv>Német</nyelv>
+            <nyelv>Holland</nyelv>
+        </nyelvek>
+        <cimkek>
+            <cimke>Nőies</cimke>
+        </cimkek>
+    </szemely>
+    <szemely nem = "férfi">
+        <keresztnev>Axel</keresztnev>
+        <nem>férfi</nem>
+        <ertekeles>78</ertekeles>
+        <nyelvek>
+            <nyelv>Dán</nyelv>
+            <nyelv>Svéd</nyelv>
+            <nyelv>Norvég</nyelv>
+        </nyelvek>
+        <cimkek>
+            <cimke>Középkori</cimke>
+        </cimkek>
+    </szemely>
+    <szemely nem = "unisex">
+        <keresztnev>Abiah</keresztnev>
+        <nem>unisex</nem>
+        <ertekeles>78</ertekeles>
+        <nyelvek>
+            <nyelv>Görög</nyelv>
+            <nyelv>Hebrew</nyelv>
+            <nyelv>Latin</nyelv>
+        </nyelvek>
+        <cimkek>
+            <cimke>Bibliai</cimke>
+        </cimkek>
+    </szemely>
+    
+</szemelyek>

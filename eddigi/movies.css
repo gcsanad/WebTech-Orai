@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+movies{
+    display: block;
+    width: 70vw;
+    padding: 1.5rem;
+    border: medium solid indigo;
+    box-shadow:  0.25rem 0.25rem 0.5rem violet;
+    font-family: "Segoe UI", Inter, Arial, sans-serif;
+    margin: auto;
+    
+}
+
+movie{
+    display: list-item;
+    list-style-type: disc;
+    padding: 1rem;
+
+}
+
+movie > :is(rating, genre){
+    color: white;
+    border-radius: 45%;
+    padding: 0.5rem;
+}
+
+
+movie > genre{
+
+    background-color: blueviolet;
+
+}
+
+movie > rating{
+
+    background-color: hotpink;
+
+}
+
+movie > rating::after{
+    content: "/10";
+}
+
+movie[mpa-rating="R"] > :is(title, year){
+    color: red;
+    font-weight: bold;
+}
+
+year::before{
+    content: "(";
+}
+
+year::after{
+    content: ")";
+}
+
+title{
+    display: none;
+}
+
+title:lang(en){
+    display: inline-block;
+}
+
+movie:hover{
+    background-color: lightblue;
+}
+
+votes::before{
+    content: "from ";
+}
+
+votes::after{
+    content: " ratings";
+}
